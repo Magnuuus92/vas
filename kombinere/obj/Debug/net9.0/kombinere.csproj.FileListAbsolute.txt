@@ -1,0 +1,14 @@
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\bin\Debug\net9.0\kombinere.exe
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\bin\Debug\net9.0\kombinere.deps.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\bin\Debug\net9.0\kombinere.runtimeconfig.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\bin\Debug\net9.0\kombinere.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\bin\Debug\net9.0\kombinere.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.AssemblyInfoInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.AssemblyInfo.cs
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.csproj.CoreCompileInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\refint\kombinere.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.genruntimeconfig.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\ref\kombinere.dll
