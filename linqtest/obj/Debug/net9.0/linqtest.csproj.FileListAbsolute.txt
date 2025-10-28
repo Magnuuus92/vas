@@ -1,0 +1,15 @@
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\bin\Debug\net9.0\linqtest.exe
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\bin\Debug\net9.0\linqtest.deps.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\bin\Debug\net9.0\linqtest.runtimeconfig.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\bin\Debug\net9.0\linqtest.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\bin\Debug\net9.0\linqtest.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.AssemblyInfoInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.AssemblyInfo.cs
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.csproj.CoreCompileInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.sourcelink.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\refint\linqtest.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\linqtest.genruntimeconfig.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\linqtest\obj\Debug\net9.0\ref\linqtest.dll

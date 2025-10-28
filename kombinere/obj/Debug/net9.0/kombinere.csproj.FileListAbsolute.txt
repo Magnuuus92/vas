@@ -12,3 +12,4 @@ C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\refin
 C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.pdb
 C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.genruntimeconfig.cache
 C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\ref\kombinere.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\kombinere\obj\Debug\net9.0\kombinere.sourcelink.json
