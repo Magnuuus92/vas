@@ -1,4 +1,7 @@
-﻿Console.WriteLine("type the first letter of the person you want to look up");
+﻿
+
+
+Console.WriteLine("type the first letter of the person you want to look up");
 string? input = Console.ReadLine();
 
 var contacts = new List<Contact>
