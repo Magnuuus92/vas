@@ -1,0 +1,15 @@
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\bin\Debug\net9.0\gruppe.exe
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\bin\Debug\net9.0\gruppe.deps.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\bin\Debug\net9.0\gruppe.runtimeconfig.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\bin\Debug\net9.0\gruppe.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\bin\Debug\net9.0\gruppe.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.AssemblyInfoInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.AssemblyInfo.cs
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.csproj.CoreCompileInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.sourcelink.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\refint\gruppe.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\gruppe.genruntimeconfig.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\gruppe\obj\Debug\net9.0\ref\gruppe.dll
