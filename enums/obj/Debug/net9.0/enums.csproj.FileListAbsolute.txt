@@ -1,0 +1,15 @@
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\bin\Debug\net9.0\enums.exe
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\bin\Debug\net9.0\enums.deps.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\bin\Debug\net9.0\enums.runtimeconfig.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\bin\Debug\net9.0\enums.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\bin\Debug\net9.0\enums.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.AssemblyInfoInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.AssemblyInfo.cs
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.csproj.CoreCompileInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.sourcelink.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\refint\enums.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\enums.genruntimeconfig.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\enums\obj\Debug\net9.0\ref\enums.dll

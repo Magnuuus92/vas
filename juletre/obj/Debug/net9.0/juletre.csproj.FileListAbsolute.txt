@@ -1,0 +1,15 @@
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\bin\Debug\net9.0\juletre.exe
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\bin\Debug\net9.0\juletre.deps.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\bin\Debug\net9.0\juletre.runtimeconfig.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\bin\Debug\net9.0\juletre.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\bin\Debug\net9.0\juletre.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.AssemblyInfoInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.AssemblyInfo.cs
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.csproj.CoreCompileInputs.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.sourcelink.json
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\refint\juletre.dll
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.pdb
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\juletre.genruntimeconfig.cache
+C:\Users\MMSor\Desktop\kodemappe-prosjekter\vas\juletre\obj\Debug\net9.0\ref\juletre.dll
