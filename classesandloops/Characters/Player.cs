@@ -16,6 +16,7 @@ public class Player
     }
     public void TakeDamage(int amount) // - HP
     {
+
         HP -= amount;
     }
     public int AttackDamage()

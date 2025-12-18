@@ -1,11 +1,25 @@
 ﻿using System.Net.Quic;
+using System.Runtime.InteropServices;
 
 namespace MyProgram
 {
-    public class Program
+    public class Program :
     {
         public static void Main()
         {
+
+
+            List<Player> party = new List<Player>
+            {
+                new Player("Magnus"),
+                new Player("Magnus2")
+            };
+            List<Enemy> encounter1 = new List<Enemy>
+            {
+                new Enemy("goblin", 26, 10),
+                new Enemy("orc", 30, 10)
+            };
+
             var bathroom = new Bathroom1();
             var entry = new Entry1();
             var guestroom = new Guestroom1();

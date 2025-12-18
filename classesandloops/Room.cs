@@ -5,7 +5,7 @@ public abstract class Room
     public string Name { get; } //hva rommet kalles
     public string Description { get; } // texten som skal komme når du er i rommet
     public Dictionary<string, Room> Exits { get; } = new(); // movement between rooms
-
+    public CombatEncounter? Encounter { get; set; }
     protected Room(string name, string description)
     {
         Name = name;
