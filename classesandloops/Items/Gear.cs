@@ -1,9 +1,12 @@
-public class Weapon : Item
+namespace Items
 {
-    public int Damage { get; }
-    public Weapon(string name, string description, int damage)
-    : base(name, description)
+    public class Weapon : Item
     {
-        Damage = damage;
+        public int Damage { get; }
+        public Weapon(string name, string description, int damage)
+        : base(name, description)
+        {
+            Damage = damage;
+        }
     }
 }

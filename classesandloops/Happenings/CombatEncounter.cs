@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Characters;
+using Happenings;
 public class CombatEncounter
 {
     public List<Enemy> Enemies { get; }
@@ -13,5 +16,5 @@ public class CombatEncounter
 
         Combat.StartCombat(party, Enemies);
         IsCompleted = true;
-    }//stuck!!!
+    }//stuck!
 }
