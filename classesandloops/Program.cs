@@ -1,9 +1,9 @@
 ﻿using System.Net.Quic;
 using System.Runtime.InteropServices;
-
+using Characters;
 namespace MyProgram
 {
-    public class Program :
+    public class Program
     {
         public static void Main()
         {
