@@ -16,13 +16,13 @@ namespace Happenings
                 //PLAYER COMBAT TURN
                 foreach (var player in players.Where(p => p.IsAlive))
                 {
-                    PlayerTurn(player, enemies);
+                    HandlePlayerTurn(player, enemies);
                     if (!enemies.Any(e => e.IsAlive))
                         break;
                 }
                 foreach (var enemy in enemies.Where(e => e.IsAlive))
                 {
-                    EnemyTurn(enemy, players);
+                    HandleEnemyTurn(enemy, players);
                     if (!players.Any(e => e.IsAlive))
                         break;
                 }
@@ -41,7 +41,7 @@ namespace Happenings
             foreach (var e in enemies)
                 Console.WriteLine($"{e.Name}: {e.HP} HP");
         }
-        void EnemyTurn(Enemy enemy, List<Player> players)
+        void HandleEnemyTurn(Enemy enemy, List<Player> players)
         {
             var target = players
             .Where(p => p.IsAlive)
@@ -51,7 +51,7 @@ namespace Happenings
             target.TakeDamage(enemy.Damage);
             Console.WriteLine($"{enemy.Name} deals {enemy.Damage} to {target.Name}");
         }
-        void PlayerTurn(Player player, List<Enemy> enemies) //displayer hp
+        void HandlePlayerTurn(Player player, List<Enemy> enemies) //displayer hp
         {
             Console.WriteLine($"\n{player.Name}`s turn");
             Console.WriteLine("(A)ttack  (U)se item  (S)kip");

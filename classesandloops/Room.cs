@@ -1,3 +1,4 @@
+using Characters;
 using Happenings;
 //all rooms basic behaviour
 public abstract class Room
@@ -15,6 +16,15 @@ public abstract class Room
     {
         Exits[direction.ToLower()] = room;
     }
+    public virtual void OnEnter(Player player)
+    {
+        Console.WriteLine($"\nYou enter the {Name}.");
+        Console.WriteLine(Description);
+        if (Encounter != null && !Encounter.IsCompleted)
+        {
+            Encounter.Start(new List<Player> { player });
+        }
+    }
     public virtual void Describe()
     {
         Console.WriteLine($"\nYou are in the {Name}.");
@@ -25,5 +35,6 @@ public abstract class Room
             Console.WriteLine($"- {nextRoom.Key} {nextRoom.Value.Name}");
         }
     }
+
 
 }
