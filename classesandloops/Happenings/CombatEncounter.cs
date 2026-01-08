@@ -1,20 +1,25 @@
 using System.Collections.Generic;
 using Characters;
 using Happenings;
-public class CombatEncounter
+namespace Happenings
 {
-    public List<Enemy> Enemies { get; }
-    public bool IsCompleted { get; private set; }
-    public CombatEncounter(List<Enemy> enemies)
+    public class CombatEncounter
     {
-        Enemies = enemies;
-    }
-    public void Start(List<Player> party)
-    {
-        if (IsCompleted)
-            return;
+        public List<Enemy> Enemies { get; }
+        public bool IsCompleted { get; private set; }
+        public CombatEncounter(List<Enemy> enemies)
+        {
+            Enemies = enemies;
+        }
+        public void Start(List<Player> party)
+        {
+            if (IsCompleted)
+                return;
 
-        Combat.StartCombat(party, Enemies);
-        IsCompleted = true;
-    }//stuck!
+
+            Combat combat = new Combat();
+            combat.StartCombat(party, Enemies);
+            IsCompleted = true;
+        }
+    }
 }

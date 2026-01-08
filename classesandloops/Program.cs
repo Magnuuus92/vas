@@ -17,7 +17,7 @@ namespace MyProgram
             List<Enemy> encounter1 = new List<Enemy>
             {
                 new Enemy("goblin", 16, 10),
-                new Enemy("orc", 30, 10)
+                new Enemy("Big goblin", 30, 10)
             };
             //House1
             var bathroom = new Bathroom1();
