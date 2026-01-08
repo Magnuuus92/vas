@@ -111,6 +111,8 @@ namespace MyProgram
 
 
             Room currentroom = entry;
+            Player activePlayer = party[0];
+            currentroom.OnEnter(activePlayer);
             string? command;
 
             while (true)
@@ -121,9 +123,10 @@ namespace MyProgram
 
                 if (command == "quit")
                     break;
-                if (currentroom.Exits.ContainsKey(command))
+                if (currentroom.Exits.TryGetValue(command, out Room nextroom))
                 {
-                    currentroom = currentroom.Exits[command];
+                    currentroom = nextroom;
+                    currentroom.OnEnter(activePlayer);
                 }
                 else
                 {
