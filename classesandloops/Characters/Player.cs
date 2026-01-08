@@ -24,7 +24,7 @@ namespace Characters
         }
         public int AttackDamage()
         {
-            return EquippedWeapon?.Damage ?? 1;
+            return EquippedWeapon?.Damage ?? 5;
         }
     }
 }
