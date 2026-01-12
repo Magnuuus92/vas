@@ -27,9 +27,22 @@ namespace Happenings
                         break;
                 }
             }
-            Console.WriteLine(players.Any(p => p.IsAlive)
+            /*Console.WriteLine(players.Any(p => p.IsAlive)
             ? "Victory"
-            : "Defeat");
+            : "Defeat");*/
+            if (players.Any(p => p.IsAlive))
+            {
+                Console.WriteLine("Victory");
+                int totalXP = enemies.Sum(e => e.ExperienceReward);
+                foreach (var player in players.Where(p => p.IsAlive))
+                {
+                    player.GainExperience(totalXP / players.Count);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Defeat.");
+            }
         }
         void DisplayStatus(List<Player> players, List<Enemy> enemies)
         {
