@@ -8,7 +8,7 @@ namespace Happenings
         {
             Console.WriteLine($"{enemy.Name}'s turn.");
 
-            int damage = enemy.Damage;
+            int damage = enemy.PhysicalDamage();
             player.TakeDamage(damage);
 
             Console.WriteLine($"{enemy.Name} Attacks {player.Name} and deals {damage}");

@@ -6,8 +6,9 @@ namespace Happenings
 {
     public static class PlayerTurn
     {
-        public static void Execute(Player player, Enemy enemy)
+        public static void Execute(Player player, List<Enemy> enemies)
         {
+
             Console.WriteLine("Your turn!");
             Console.WriteLine("1.Attack");
             Console.WriteLine("2.Use item");
@@ -15,7 +16,7 @@ namespace Happenings
             switch (input)
             {
                 case "1":
-                    Attack(player, enemy);
+                    Attack(player, enemies);
                     break;
 
                 case "2":
@@ -30,7 +31,7 @@ namespace Happenings
         }
         private static void Attack(Player player, Enemy enemy)
         {
-            int damage = player.AttackDamage();
+            int damage = player.PhysicalDamage();
             enemy.TakeDamage(damage);
 
             Console.WriteLine($"{player.Name} attacks {enemy.Name} and deals {damage} damage!");

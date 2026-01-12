@@ -61,6 +61,7 @@ namespace Happenings
             .OrderBy(_ => Guid.NewGuid())
             .First();
 
+            int damage = enemy.PhysicalDamage();
             target.TakeDamage(enemy.Damage);
             Console.WriteLine($"{enemy.Name} deals {enemy.Damage} to {target.Name}");
         }
@@ -74,7 +75,7 @@ namespace Happenings
             if (input == "a")
             {
                 var target = ChooseEnemy(enemies);
-                int damage = player.AttackDamage();
+                int damage = player.PhysicalDamage();
                 target.TakeDamage(damage);
                 Console.WriteLine($"{player.Name} deals {damage} to {target.Name}");
 

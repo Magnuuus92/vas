@@ -8,8 +8,8 @@ namespace Characters
         //STATS
         public Stats Stats { get; } = new();
         public int HP { get; private set; }
-        public int Damage { get; }
-        public int Defence { get; }
+        //public int Damage { get; }
+        //public int Defence { get; }
         //EXP Reward
         public int ExperienceReward { get; }
         //Alive?
