@@ -28,6 +28,7 @@ namespace Characters
             HP = MaxHp;
             Energy = MaxEnergy;
             Skills.Add(new OneTwoCombo());
+            Skills.Add(new KissOfDeath());
         }
         private void RecalculateDervivedStats()
         {
