@@ -1,5 +1,6 @@
 using System.Diagnostics.Tracing;
 using Items;
+using Skills;
 namespace Characters
 {
     public class Player
@@ -13,6 +14,9 @@ namespace Characters
         public Stats Stats { get; } = new();
         public int MaxHp { get; private set; } = 100;
         public int HP { get; private set; } = 100;
+        public int MaxEnergy { get; private set; } = 100;
+        public int Energy { get; private set; } = 100;
+        public List<Skill> Skills { get; } = new();
         public Weapon? EquippedWeapon { get; private set; }
         public List<Item> Inventory { get; } = new();
         //Alive?
@@ -22,6 +26,8 @@ namespace Characters
             Name = name;
             RecalculateDervivedStats();
             HP = MaxHp;
+            Energy = MaxEnergy;
+            Skills.Add(new OneTwoCombo());
         }
         private void RecalculateDervivedStats()
         {

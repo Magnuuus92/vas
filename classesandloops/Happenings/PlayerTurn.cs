@@ -2,6 +2,7 @@ using System.Reflection.Metadata;
 using Characters;
 using Items;
 using Happenings;
+using Microsoft.Diagnostics.Tracing.Parsers;
 
 namespace Happenings
 {
@@ -13,6 +14,7 @@ namespace Happenings
             Console.WriteLine("Your turn!");
             Console.WriteLine("1.Attack");
             Console.WriteLine("2.Use item");
+            Console.WriteLine("3.Use skill");
             string? input = Console.ReadLine();
             switch (input)
             {
@@ -23,7 +25,9 @@ namespace Happenings
                 case "2":
                     UseItem(player);
                     break;
-
+                case "3":
+                    UseSkill(player, enemies);
+                    break;
                 default:
                     Console.WriteLine("Invalid choice. You lose your turn.");
                     break;
@@ -62,6 +66,31 @@ namespace Happenings
             Item item = player.Inventory[choice - 1];
             item.Use(player);
             player.Inventory.Remove(item);
+        }
+        private static void UseSkill(Player player, List<Enemy> enemies)
+        {
+            if (player.Skills.Count == 0)
+            {
+                Console.WriteLine("you have no skills.");
+                return;
+            }
+            Console.WriteLine("Choose a Skill to use.");
+            for (int i = 0; i < player.Skills.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {player.Skills[i].Name}");
+            }
+            int choice;
+            while (!int.TryParse(Console.ReadLine(), out choice) ||
+            choice < 1 || choice > player.Skills.Count)
+            {
+                Console.WriteLine("Invalid choice");
+            }
+
+            var skill = player.Skills[choice - 1];
+            var target = TargetSelection.SelectEnemy(enemies);
+
+            skill.Use(player, target);
+
         }
 
     }
