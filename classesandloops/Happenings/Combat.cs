@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Linq.Expressions;
 using Characters;
+using Skills;
 
 namespace Happenings
 {

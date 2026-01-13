@@ -32,6 +32,7 @@ namespace Characters
         private void RecalculateDervivedStats()
         {
             MaxHp = 50 + Stats.Vitality * 10;
+            MaxEnergy = 50 + Stats.Willpower * 10;
         }
         public int PhysicalDamage()
         {

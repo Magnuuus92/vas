@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using Characters;
-using Happenings;
+using Skills;
 namespace Happenings
 {
     public class CombatEncounter
