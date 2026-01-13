@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using Characters;
 using Skills;
 
@@ -17,10 +18,12 @@ namespace Happenings
                 //PLAYER COMBAT TURN
                 foreach (var player in players.Where(p => p.IsAlive))
                 {
-                    HandlePlayerTurn(player, enemies);
+
+                    PlayerTurn.Execute(player, enemies);
                     if (!enemies.Any(e => e.IsAlive))
                         break;
                 }
+
                 foreach (var enemy in enemies.Where(e => e.IsAlive))
                 {
                     HandleEnemyTurn(enemy, players);
@@ -66,28 +69,9 @@ namespace Happenings
             target.TakeDamage(damage);
             Console.WriteLine($"{enemy.Name} deals {damage} to {target.Name}");
         }
-        void HandlePlayerTurn(Player player, List<Enemy> enemies) //displayer hp
-        {
-            Console.WriteLine($"\n{player.Name}`s turn");
-            Console.WriteLine("(A)ttack  (U)se item  (S)kip");
 
-            var input = Console.ReadLine()?.ToLower();
 
-            if (input == "a")
-            {
-                var target = ChooseEnemy(enemies);
-                int damage = player.PhysicalDamage();
-                target.TakeDamage(damage);
-                Console.WriteLine($"{player.Name} deals {damage} to {target.Name}");
 
-            }
-            else if (input == "u")
-            {
-                Console.WriteLine("not yet implemented");
-                //   UseItemMenu(player);
-            }
-
-        }
         //player choose enemy target
         Enemy ChooseEnemy(List<Enemy> enemies)
         {
