@@ -53,8 +53,8 @@ namespace Happenings
             Console.WriteLine("\n--- Party ---");
             foreach (var p in players)
             {
-                Console.WriteLine($"{p.Name}: {p.HP} HP : {p.Energy} Energy");
-                Console.WriteLine($" {p.Name}:   ")// fortsett.
+                Console.WriteLine($"{p.Name}: {p.HP} HP  {p.Energy} Energy");
+                // Console.WriteLine($" {p.Name}:   ")// fortsett.
             }
 
             Console.WriteLine("\n--- Enemies ---");
