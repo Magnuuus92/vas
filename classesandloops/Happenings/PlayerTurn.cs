@@ -1,6 +1,7 @@
 using System.Reflection.Metadata;
 using Characters;
 using Items;
+using Happenings;
 
 namespace Happenings
 {
@@ -29,12 +30,14 @@ namespace Happenings
 
             }
         }
-        private static void Attack(Player player, Enemy enemy)
+        private static void Attack(Player player, List<Enemy> enemies)
         {
-            int damage = player.PhysicalDamage();
-            enemy.TakeDamage(damage);
+            Enemy target = TargetSelection.SelectEnemy(enemies);
 
-            Console.WriteLine($"{player.Name} attacks {enemy.Name} and deals {damage} damage!");
+            int damage = player.PhysicalDamage();
+            target.TakeDamage(damage);
+
+            Console.WriteLine($"{player.Name} attacks {target.Name} and deals {damage} damage!");
         }
         private static void UseItem(Player player)
         {

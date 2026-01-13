@@ -62,8 +62,8 @@ namespace Happenings
             .First();
 
             int damage = enemy.PhysicalDamage();
-            target.TakeDamage(enemy.Damage);
-            Console.WriteLine($"{enemy.Name} deals {enemy.Damage} to {target.Name}");
+            target.TakeDamage(damage);
+            Console.WriteLine($"{enemy.Name} deals {damage} to {target.Name}");
         }
         void HandlePlayerTurn(Player player, List<Enemy> enemies) //displayer hp
         {

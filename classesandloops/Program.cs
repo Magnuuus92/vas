@@ -16,8 +16,8 @@ namespace MyProgram
             };
             List<Enemy> encounter1 = new List<Enemy>
             {
-                new Enemy("goblin", 16, 10),
-                new Enemy("Big goblin", 30, 10)
+  new Enemy("goblin", 20, 5, 2, 50),
+                new Enemy("big goblin", 28, 6, 5, 55)
             };
             //House1
             var bathroom = new Bathroom1();
@@ -123,7 +123,7 @@ namespace MyProgram
 
                 if (command == "quit")
                     break;
-                if (currentroom.Exits.TryGetValue(command, out Room nextroom))
+                if (currentroom.Exits.TryGetValue(command, out Room? nextroom))
                 {
                     currentroom = nextroom;
                     currentroom.OnEnter(activePlayer);

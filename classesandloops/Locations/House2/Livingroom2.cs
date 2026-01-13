@@ -7,8 +7,8 @@ public class Livingroom2 : Room
         Encounter = new CombatEncounter(
             new List<Enemy>
             {
-                new Enemy("goblin", 20, 5),
-                new Enemy("big goblin", 28, 6)
+                new Enemy("goblin", 20, 5, 2, 50),
+                new Enemy("big goblin", 28, 6, 5, 55)
             }
         );
     }
