@@ -23,14 +23,14 @@ namespace Happenings
                 {
                     case "1":
                         Attack(player, enemies);
-                        break;
+                        return;
 
                     case "2":
                         UseItem(player);
-                        break;
+                        return;
                     case "3":
                         UseSkill(player, enemies);
-                        break;
+                        return;
                     case "4":
                         player.PrintStats();
                         break;
@@ -57,8 +57,6 @@ namespace Happenings
                 Console.WriteLine("You have no items to use.");
                 return;
             }
-
-
             Console.WriteLine("Choose an item to use:");
             for (int i = 0; i < player.Inventory.Count; i++)
             {
