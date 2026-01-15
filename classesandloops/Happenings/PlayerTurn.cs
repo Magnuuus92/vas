@@ -11,28 +11,34 @@ namespace Happenings
     {
         public static void Execute(Player player, List<Enemy> enemies)
         {
-
-            Console.WriteLine("Your turn!");
-            Console.WriteLine("1.Attack");
-            Console.WriteLine("2.Use item");
-            Console.WriteLine("3.Use skill");
-            string? input = Console.ReadLine();
-            switch (input)
+            while (true)
             {
-                case "1":
-                    Attack(player, enemies);
-                    break;
+                Console.WriteLine("Your turn!");
+                Console.WriteLine("1.Attack");
+                Console.WriteLine("2.Use item");
+                Console.WriteLine("3.Use skill");
+                Console.WriteLine("4.Wiew stats");
+                string? input = Console.ReadLine();
+                switch (input)
+                {
+                    case "1":
+                        Attack(player, enemies);
+                        break;
 
-                case "2":
-                    UseItem(player);
-                    break;
-                case "3":
-                    UseSkill(player, enemies);
-                    break;
-                default:
-                    Console.WriteLine("Invalid choice. You lose your turn.");
-                    break;
+                    case "2":
+                        UseItem(player);
+                        break;
+                    case "3":
+                        UseSkill(player, enemies);
+                        break;
+                    case "4":
+                        player.PrintStats();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. You lose your turn.");
+                        break;
 
+                }
             }
         }
         private static void Attack(Player player, List<Enemy> enemies)

@@ -1,6 +1,7 @@
 using System.Diagnostics.Tracing;
 using Items;
 using Skills;
+
 namespace Characters
 {
     public class Player
@@ -96,6 +97,22 @@ namespace Characters
                         break;
                 }
             }
+        }
+        public void PrintStats()
+        {
+            Console.WriteLine($@"
+            === {Name} ===
+            Level: {Level}
+            XP: {Experience}/{XpToNextLevel}
+            HP: {HP}/{MaxHp}
+            Energy: {Energy}/{MaxEnergy}
+            
+            STRENGTH: {Stats.Strength}
+            DEXTERITY: {Stats.Dexterity}
+            VITALITY: {Stats.Vitality}
+            RESILIENCE: {Stats.Resilience}
+            INTELLECT: {Stats.Intellect}
+            WILLPOWER: {Stats.Willpower}");
         }
     }
 }

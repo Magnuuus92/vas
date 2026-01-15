@@ -1,3 +1,4 @@
+using Happenings;
 using System.ComponentModel.DataAnnotations;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;

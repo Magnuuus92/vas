@@ -118,11 +118,17 @@ namespace MyProgram
             while (true)
             {
                 currentroom.Describe();
-                Console.WriteLine("\nWhere do you want to go?(or 'quit')");
+                Console.WriteLine("\nWhere do you want to go?");
+                Console.WriteLine("Commands: direction, stats, quit.");
                 command = Console.ReadLine()?.ToLower();
 
                 if (command == "quit")
                     break;
+                if (command == "stats")
+                {
+                    activePlayer.PrintStats();
+                    continue;
+                }
                 if (currentroom.Exits.TryGetValue(command, out Room? nextroom))
                 {
                     currentroom = nextroom;
