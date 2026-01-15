@@ -118,16 +118,41 @@ namespace MyProgram
             while (true)
             {
                 currentroom.Describe();
-                Console.WriteLine("\nWhere do you want to go?");
-                Console.WriteLine("Commands: direction, stats, quit.");
+                Console.WriteLine("\nType in the direction you want to travel.(case sensitive)");
+                Console.WriteLine("Other commands: player, quit.");
                 command = Console.ReadLine()?.ToLower();
 
                 if (command == "quit")
                     break;
-                if (command == "stats")
+                if (command == "player")
                 {
-                    activePlayer.PrintStats();
-                    continue;
+                    Console.WriteLine("1.Stats 2.inventory 3.skills 4.travel");
+
+                    while (true)
+                    {
+
+
+                        if (command == "stats")
+                        {
+                            activePlayer.PrintStats();
+                            continue;
+                        }
+                        if (command == "inventory")
+                        {
+                            Console.WriteLine("Not yet implemented");
+                            continue;
+                        }
+                        if (command == "skills")
+                        {
+                            Console.WriteLine("Not yet implemented");
+                            continue;
+                        }
+                        if (command == "travel")
+                        {
+                            Console.WriteLine("Resuming travel");
+                            break;
+                        }
+                    }
                 }
                 if (currentroom.Exits.TryGetValue(command, out Room? nextroom))
                 {
