@@ -126,32 +126,32 @@ namespace MyProgram
                     break;
                 if (command == "player")
                 {
-                    Console.WriteLine("1.Stats 2.inventory 3.skills 4.travel");
-
                     while (true)
                     {
+                        Console.WriteLine("1.Stats 2.inventory 3.skills 4.travel");
+                        var playerCommand = Console.ReadLine()?.ToLower();
 
-
-                        if (command == "stats")
+                        if (playerCommand == "stats")
                         {
                             activePlayer.PrintStats();
                             continue;
                         }
-                        if (command == "inventory")
+                        else if (playerCommand == "inventory")
                         {
                             Console.WriteLine("Not yet implemented");
                             continue;
                         }
-                        if (command == "skills")
+                        else if (playerCommand == "skills")
                         {
                             Console.WriteLine("Not yet implemented");
                             continue;
                         }
-                        if (command == "travel")
+                        else if (playerCommand == "travel")
                         {
                             Console.WriteLine("Resuming travel");
                             break;
                         }
+                        continue;
                     }
                 }
                 if (currentroom.Exits.TryGetValue(command, out Room? nextroom))
